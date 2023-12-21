@@ -37,7 +37,7 @@ export const askUserNameAndPin = () => {
 }
 
 export const showLoginMessage = async () => {
-    const loginMessage = 'Hi, lets begin, you have been logged in !';
+    const loginMessage = 'It stores passwords in Os example: Windows Credential Manager for Windows OS same like Git, GitHub , Aws , Azure and Google cloud clis';
     const animationObj = chalkAnimation.rainbow(loginMessage);
     await sleep(2000);
     animationObj.stop();
